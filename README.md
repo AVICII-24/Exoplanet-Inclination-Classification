@@ -6,13 +6,13 @@ The model takes in features such as orbital period, radius ratio, and other plan
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Inclination of an exoplanet is a crucial factor for transit detection and understanding planetary systems. This classifier helps analyze how various orbital and physical features relate to inclination, using a supervised learning approach.
 
 ---
 
-## 🧠 Model
+##  Model
 
 - **Type**: Neural Network (CNN)
 - **Input**: Planetary parameters from CSV data
@@ -21,7 +21,7 @@ Inclination of an exoplanet is a crucial factor for transit detection and unders
 
 ---
 
-## 🧾 Features Used
+##  Features Used
 
 - `pl_orbper`: Orbital period
 - `pl_ratror`: Planet/star radius ratio
@@ -35,7 +35,7 @@ Inclination of an exoplanet is a crucial factor for transit detection and unders
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 - `inclination_classifier.ipynb` – Main notebook for data prep, training and evaluation
 - `data/Copy - Total Set 2-Table 1.csv` – Cleaned dataset used for training
